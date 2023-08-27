@@ -5,4 +5,3 @@ def Sorting(a):
         counts =  count(i)
         i++
         print("Numbers are "+counts)
-        
