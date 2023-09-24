@@ -1,20 +1,13 @@
-import numpy as np 
+import pandas as pd
+import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as se
-Customers = ['Tata Motors','Toyota','Suzuki','Hyundai']
-Sales = [10,20,3,30]
- 
-Customer = np.array(Customers)
-Sale = np.array(Sales)
+Y= ['January','February','March','April','May','June','July','Agust','September','Octomber','November','December']
+X = [25,45,33,55,66,70,75,90,80,85,55,66]
+plt.plot( X, Y)
 
-print(Customer)
-print(Sales)
-
-se.lineplot(x = Customer,y=Sales)
-plt.xlabel('Brands')
-plt.ylabel('Sale')
+plt.xlabel('X axis')
+plt.ylabel('Y Axis')
 plt.show()
-
 
 
 
